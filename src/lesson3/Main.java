@@ -37,12 +37,8 @@ public class Main {
         phonebook.add("Ivanov", "+375293333322");
 
 
-        phonebook.get("Ivanov");
-        phonebook.get("Sidorov");
-        phonebook.get("Petrov");
-        phonebook.get("Putin");
-
-
+        System.out.println(phonebook.get("Ivanov"));
+        System.out.println(phonebook.get("Sidorov"));
     }
 
 
