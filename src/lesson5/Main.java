@@ -45,6 +45,5 @@ public class Main {
         System.arraycopy(a2, 0, arr, h, h);
         System.out.println("Несколько потоков: " + (System.currentTimeMillis() - a));
 
-
     }
 }
